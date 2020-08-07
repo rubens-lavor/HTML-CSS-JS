@@ -1,0 +1,33 @@
+/*Seletor de Tags*/
+p{
+    color: red;
+    font-size: 30pt;
+}
+
+/*Seletor de id*/
+#h1 {
+    color: blue
+}
+
+/*Seletor de classe*/
+.h2 {
+    color: seagreen;
+    font-weight: 100;
+}
+
+/*
+
+(Para criar um grupo de seletores basta separar por vírgula)
+Exemplo:
+
+h4,h5,h6 {
+    color:blue;
+    font-size:15pt;
+}
+
+(15pt significa 15 pontos)
+font-weight é o peso da fonte (em negrito)
+
+cada id é único, já na classe não precisa necessariamente.
+
+*/

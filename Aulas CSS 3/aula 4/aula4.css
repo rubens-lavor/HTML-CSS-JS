@@ -1,0 +1,20 @@
+body{
+    background-image: url(lua.jpg);
+    background-size: auto;
+    background-repeat:no-repeat;
+    background-position: 200px 2px;
+    background-color: blue;
+    color: beige;
+
+    /*
+    para colocar outra imagem basta por vígula em todos
+    os background's e reconfigurar as atribuições
+    
+    Exemplo:
+    background-image: url(lua.jpg), url(outraFoto.jpg) ;
+    background-size: auto, 200pt;
+    */
+}
+h3{
+    color: chartreuse;
+}

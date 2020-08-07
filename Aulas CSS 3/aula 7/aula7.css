@@ -1,0 +1,11 @@
+body{
+    background:#bbb url(../aula\ 6/logo.png) repeat-x 0px 0px;
+    
+    /* mesma coisa que:
+
+        background-color: #bbb;
+        background-image: url(../aula\ 6/logo.png);
+        background-repeat: repeat-x;
+        background-position: 0px 0px;  
+    */
+}
