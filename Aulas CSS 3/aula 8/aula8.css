@@ -1,0 +1,8 @@
+#d1{
+    width: 500px;
+    height: 200px;
+    background-color: #ddd;
+    border-style: groove;
+    border-width: 20px;
+    border-color: red;
+}
