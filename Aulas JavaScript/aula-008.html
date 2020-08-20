@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript #08</title>
+
+    <style>
+        h3 {
+            text-align: center;
+        }
+
+        div {
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div>
+        <h3>Operadores lógicos AND && - OR ||</h3>
+    </div>
+
+    <script>
+
+        var pontos = 40;
+        // vitória ----->  (>=30 & <=40 || >=70 && <=80)
+
+        if (((pontos >= 30) && (pontos <= 40)) || ((pontos >= 70) && (pontos <= 80))) {
+            document.write("Ganhou");
+        } else {
+            document.write("Perdeu");
+        }
+
+    </script>
+
+</body>
+
+</html>

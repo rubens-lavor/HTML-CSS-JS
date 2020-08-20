@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript #09</title>
+
+    <style>
+        h3 {
+            text-align: center;
+        }
+        div {
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <h3>IF com múltiplos retornos</h3>
+
+    </div>
+
+    <script>
+        var nota = 40;
+        var res='';
+
+        //Aprovado >=60;
+        //recuperação  >=40 && <60
+        //reprovado <40
+        
+
+        if (nota >= 60) {
+            res='Aprovado';
+        }else if (nota < 40) {
+            res='Reprovado';
+        }else{
+            res="Recuparação";
+        }
+        
+
+        document.write(res);
+    </script>
+
+</body>
+
+</html>
