@@ -1,0 +1,10 @@
+h3{
+    border: #555 solid 5px;
+    border-radius: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+p{
+    border: #999 solid 20px;
+    border-image: url("https://thumbs.dreamstime.com/z/%C3%ADcone-do-vetor-c%C3%ADrculo-isolado-no-fundo-transparente-ci-linear-130107640.jpg") 2 stretch;
+}
