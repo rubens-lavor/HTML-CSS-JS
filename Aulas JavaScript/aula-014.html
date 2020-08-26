@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript #14</title>
+
+    <style>
+        h3 {
+            text-align: center;
+        }
+        div {
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h3>Array / Vetor - Parte 2 - Métodos da classe array</h3>
+
+    <p>Método unshift insere no início do vetor</p>
+    <p>Método pop retira o último elemento do vetor</p>
+    <p>Método shift remove o elemento do início do vetor</p>
+    <p>Método splice remove um elemento no meio do vetor</p>
+
+    <script>
+
+        var mochila = [];
+        mochila.push("caderno");
+        mochila.push("caneta");
+        mochila.push("lápis");
+        mochila.unshift("livro");
+
+        mochila.pop();
+
+        mochila.shift();
+
+        mochila.splice(1,2); //a partir da posição 1, vai remover 2 elementos
+
+        document.write(`<div>` + mochila[0] + `</div>`);
+        
+    </script>
+
+</body>
+
+</html>
