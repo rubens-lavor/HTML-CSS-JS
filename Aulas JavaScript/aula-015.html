@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript #15</title>
+
+    <style>
+        body{
+            text-align: center;
+
+        }
+        h3 {
+            text-align: center;
+        }
+        div {
+            background-color: aqua;
+            width: 400px;
+            margin: 0 auto 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h3>Array / Vetor - Parte 3 - Métodos da classe array</h3>
+
+    <p>Método <strong>indexOf</strong> informa se o elemento está ou não no vetor, se estiver retorna a posição do elemento, se não houver o item retorna -1 </p>
+    <p>Método <strong>sort</strong> ordena os elementos do vetor</p>
+    <p>Método <strong>reverse</strong> inverte os elementos do vetor</p>
+    <p>Método <strong>join</strong> retorna todos os elementos de um vetor separados por vírgula e no formato de string</p>
+    <p>Método <strong>concat</strong> faz a união dos itens de dois vetores</p>
+    <p><strong>length</strong> retorna quantos elementos tem no array</p>
+
+    <script>
+
+        var mochila = [];
+        mochila.push("caderno");
+        mochila.push("caneta");
+        mochila.push("lápis");
+        mochila.push("livro");
+
+        
+
+        document.write(`<div>` + mochila.indexOf("caderno") + `</div>`);
+        
+    </script>
+
+</body>
+
+</html>
