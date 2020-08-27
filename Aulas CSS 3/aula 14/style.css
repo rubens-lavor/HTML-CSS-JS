@@ -1,0 +1,16 @@
+h3{
+    border: #555 solid 5px;
+    border-radius: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+div{
+    border: #999 solid 2px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    /*para centralizar a div é preciso definir uma largura para ela*/
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
